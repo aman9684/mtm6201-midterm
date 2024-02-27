@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css"> -->
+    <!-- Icon Fonts CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Aman Summer Ice Cream</title>
+</head>
+
+<body class="main-container">
+    <!-- <div class="container"> -->
+    <header>
+        <div class="header-top">
+            <!-- <div class="banner"> -->
+            <h1 class="site-title">Aman Summer Ice Cream</h1>
+            <!-- </div> -->
+            <img class="logo" src="./images/logo.jpg" alt="logo">
+            <nav class="site-language">
+                <ul>
+                    <li>
+                        <a href="contacts.html" class="border-right">En</a>
+                        <a href="#">Fr</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="search-box" action="get">
+                <label for="search.box" class="search"></label>
+                <input type="search" id="search.box" placeholder="Search" name="search">
+                <button type="submit"><i class='fas fa-search'></i></button>
+            </form>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav1" href="index.html"><i class=' fas fa-home'></i></a>
+                    <a class="nav2" href="about.html">About Us</a>
+                    <a class="nav3" href="contacts.html">Connect</a>
+                    <!-- adding names of potential pages to match the mock up -->
+                    <a class="nav4" href="#">Products</a>
+                    <a class="nav5" href="#">New Events</a>
+                    <a class="nav6" href="#">Success Stories</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main class="container"> -->
+    <main>
+        <div class="main-content">
+            <img srcset="
+            images/icecream-320_x_320.jpg 320w,
+            images/icecream-640_x_400.jpg 640w,
+            images/icecream-1024_x_600.jpg 1024w" sizes="
+            (max-width:320px) 320px,
+            (max-width:640px) 640px,
+            (max-width:1024px) 1024px" src="images/icecream.jpg" alt="Icecream Photo" class="main-image">
+            <div class="contacts">
+                <h2>You Are Welcome</h2>
+                <p>
+                    For east contact, please fill your note and details in form below:
+                </p>
+                <section class="contact-us">
+
+                    <!-- contact form  -->
+                    <div class="contact-body">
+                        <div class="message">
+                            <h3>Send us a message</h3>
+                            <form id="contact-form" class="contact-form" method="post" action="contact.html">
+                                <div class="contact-form">
+                                    <label for="fullname" class="small-header">Full Name</label>
+                                    <div>
+                                        <input type="text" id="fullname" name="fullname" class="contact-control"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="contact-form">
+                                    <label for="email" class="small-header">Email</label>
+                                    <div>
+                                        <input type="email" id="email" name="youremail" class="contact-control"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="contact-form">
+                                    <label for="message" class="small-header">Message</label>
+                                    <div>
+                                        <textarea id="message" name="yourmessage" class="contact-control" rows="8"
+                                            required></textarea>
+                                    </div>
+                                </div>
+                                <div class="contact-form">
+                                    <!-- adding submit/sent button-->
+                                    <button type="submit" class="contact-btn">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section><!-- closing Contact Us -->
+            </div>
+        </div>
+    </main>
+        <!-- adding site footer  -->
+        <footer class="site-footer">
+            <div class="copyright">
+                <p class="copy-text">Copyright &copy; Aman Summer Ice Cream, 2024 <i class='far fa-registered'></i></p>
+                <!-- citing main image srouce  -->
+            <p class="copy">Main image is taken from <strong>Adobe Stock Image</strong></p>
+            <!-- <a href="https://www.pexels.com/photo/two-parfaits-on-table-1028421/" target="_blank">Pexels</a></p> -->
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://www.tiktok.com/"> <i class='fab fa-tiktok'></i></a>
+                    <a href="https://www.facebook.com/"><i class='fab fa-facebook'></i></a>
+                    <a href="https://www.instagram.com/"><i class='fab fa-instagram'></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class='fab fa-twitter'></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class='fab fa-linkedin'></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
