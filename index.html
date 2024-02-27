@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css"> -->
+    <!-- Icon Fonts CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Aman Summer Ice Cream</title>
+</head>
+
+<body class="main-container">
+    <!-- <div class="container"> -->
+    <header>
+        <div class="header-top">
+            <!-- <div class="banner"> -->
+            <h1 class="site-title">Aman Summer Ice Cream</h1>
+            <!-- </div> -->
+            <img class="logo" src="./images/logo.jpg" alt="logo">
+            <nav class="site-language">
+                <ul>
+                    <li>
+                        <a href="index.html" class="border-right">En</a>
+                        <a href="#">Fr</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="search-box" action="get">
+                <label for="search.box" class="search"></label>
+                <input type="search" id="search.box" placeholder="Search" name="search">
+                <button type="submit"><i class='fas fa-search'></i></button>
+            </form>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li>
+                    <a class="nav1" href="index.html"><i class='fas fa-home'></i></a>
+                    <a class="nav2" href="about.html">About Us</a>
+                    <a class="nav3" href="contacts.html">Connect</a>
+                    <!-- adding names of potential pages to match the mock up -->
+                    <a class="nav4" href="#">Products</a>
+                    <a class="nav5" href="#">New Events</a>
+                    <a class="nav6" href="#">Success Stories</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main class="container"> -->
+    <main>
+        <div class="main-content">
+            <img srcset="
+            images/icecream-320_x_320.jpg 320w,
+            images/icecream-640_x_400.jpg 640w,
+            images/icecream-1024_x_600.jpg 1024w" sizes="
+            (max-width:320px) 320px,
+            (max-width:640px) 640px,
+            (max-width:1024px) 1024px" src="images/icecream.jpg" alt="Icecream Photo" class="main-image">
+            <div class="main-text">
+                <h2>Background</h2>
+                <p class="background">
+                    Aman started his Aman Summer business in her home three years ago when she went on maternity
+                    leave. Grew from catering to friends and family to craft sales and community events. Through word of
+                    mouth he became more popular but still just catering for events such as birthdays and weddings on
+                    weekends mostly.
+                </p>
+
+                <div class="location-hours">
+                    <div class="location">
+                        <h3>Location</h3>
+                        <iframe class="location-map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.915258700109!2d-75.75914377487096!3d45.34966756639891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f18a534f7%3A0xe1f667c04b98a634!2sAlgonquin%20Commons%20Theatre!5e0!3m2!1sen!2sca!4v1628130510312!5m2!1sen!2sca"
+                            width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="hours">
+                        <h3>Hours of operation</h3>
+                        <!-- adding table -->
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Days</th>
+                                    <th>Hours</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday - Friday</td>
+                                    <td>10:00 AM - 11:00 PM</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday - Saturday</td>
+                                    <td>11:00 AM - 9:00 PM</td>
+                                </tr>
+                            </tbody>
+                        </table><!-- end of table  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- adding site footer  -->
+    <footer class="site-footer">
+        <div class="copyright">
+            <p class="copy-text">Copyright &copy; Aman-Summer Ice Cream, 2024 <i class='far fa-registered'></i></p>
+            <!-- citing main image srouce  -->
+            <p class="copy">Main image is taken from <strong>Adobe Stock Image</strong></p>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li>
+                    <a href="https://www.tiktok.com/"> <i class='fab fa-tiktok'></i></a>
+                    <a href="https://www.facebook.com/"><i class='fab fa-facebook'></i></a>
+                    <a href="https://www.instagram.com/"><i class='fab fa-instagram'></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class='fab fa-twitter'></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class='fab fa-linkedin'></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
